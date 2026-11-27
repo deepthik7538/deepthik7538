@@ -1,5 +1,5 @@
 Hi there, I'm Deepthi K! 👋
-Aspiring Developer | Open-Source Enthusiast | Lifelong Learner
+Aspiring Software Development | Open-Source Enthusiast | Lifelong Learner
 
 Welcome to my GitHub profile!
 
@@ -10,9 +10,14 @@ I'm passionate about technology, innovation, and building meaningful projects th
 💻 Interested in software development and open-source contributions.
 🎯 Focused on building practical projects.
 🤝 Interested in collaborating on innovative projects.
-🛠️ Skills & Technologies
 
-Add the programming languages and tools you actually know here.
+🛠️ Skills & Technologies
+-HTML
+-CSS
+-JavaScript
+-Python
+-Git & GitHub
+
 
 📌 Featured Projects
 
