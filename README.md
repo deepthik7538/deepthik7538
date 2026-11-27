@@ -25,7 +25,7 @@ Coming soon! Stay tuned as I build and share more projects.
 
 🌐 Connect With Me
 LinkedIn: https://www.linkedin.com/in/deepthi-kesavan/
-Portfolio: 
+Portfolio: https://deepthik7538.github.io/deepthik7538/ 
 GitHub: https://github.com/deepthik7538
 📊 GitHub Journey
 
