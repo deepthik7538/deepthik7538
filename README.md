@@ -27,6 +27,7 @@ Coming soon! Stay tuned as I build and share more projects.
 LinkedIn: https://www.linkedin.com/in/deepthi-kesavan/
 Portfolio: https://deepthik7538.github.io/deepthik7538/ 
 GitHub: https://github.com/deepthik7538
+Blog: SEO Basics: A Beginner’s Guide To Search Engine Optimization https://medium.com/@deepthik7538/seo-basics-a-beginners-guide-to-search-engine-optimization-8486395c1556
 📊 GitHub Journey
 
 Thanks for visiting my profile! Let's connect and build something amazing together. 🚀
