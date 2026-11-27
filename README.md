@@ -30,4 +30,4 @@ GitHub: https://github.com/deepthik7538
 Blog: SEO Basics: A Beginner’s Guide To Search Engine Optimization https://medium.com/@deepthik7538/seo-basics-a-beginners-guide-to-search-engine-optimization-8486395c1556
 📊 GitHub Journey
 
-Thanks for visiting my profile! Let's connect and build something amazing together. 🚀
+Thanks for visiting my profile! Let's connect and build something amazing together. 
