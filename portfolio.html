@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepthi K | My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff7fc;
+            color: #333;
+        }
+
+        header {
+            background: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px #eadce7;
+            position: sticky;
+            top: 0;
+        }
+
+        .logo {
+            color: #a34b86;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #444;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #a34b86;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        .home {
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #fce4f1, #eee4ff);
+        }
+
+        .home h1 {
+            font-size: 48px;
+            color: #963d7c;
+            margin: 15px;
+        }
+
+        .home p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #a34b86;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 25px;
+        }
+
+        h2.title {
+            text-align: center;
+            color: #963d7c;
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        .about p {
+            text-align: center;
+            line-height: 1.9;
+            font-size: 17px;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        .skills-container,
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skill, .project {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 3px 12px #eadce7;
+            width: 220px;
+        }
+
+        .skill {
+            color: #963d7c;
+            font-weight: bold;
+        }
+
+        .project h3 {
+            color: #963d7c;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            line-height: 1.6;
+        }
+
+        .education {
+            background: #fceefa;
+            text-align: center;
+            line-height: 2;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 12px;
+        }
+
+        .contact a {
+            color: #963d7c;
+            text-decoration: none;
+        }
+
+        footer {
+            background: #78315f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 650px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+                font-size: 13px;
+            }
+
+            .home h1 {
+                font-size: 35px;
+            }
+
+            section {
+                padding: 45px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Deepthi K</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <h2>Hello! Welcome to My Portfolio</h2>
+        <h1>I'm Deepthi K</h1>
+        <p>Computer Science Engineering Student</p>
+        <p>Aspiring Software Developer | Frontend Enthusiast</p>
+        <a href="#about" class="btn">Explore My Portfolio</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="title">About Me</h2>
+
+        <p>
+            Hi! I'm Deepthi K, a Computer Science Engineering
+            student at Sri Ramakrishna Institute of Technology,
+            Coimbatore. I am passionate about technology,
+            frontend development and creating meaningful projects.
+            I enjoy learning new technologies and improving
+            my programming skills.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2 class="title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Git</div>
+            <div class="skill">GitHub</div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="title">Education</h2>
+
+        <h3>Sri Ramakrishna Institute of Technology</h3>
+        <p>B.E. Computer Science and Engineering</p>
+        <p>Coimbatore, Tamil Nadu</p>
+    </section>
+
+    <section id="projects">
+        <h2 class="title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project">
+                <h3>Python Programs</h3>
+                <p>Basic Python programs and coding exercises.</p>
+            </div>
+
+            <div class="project">
+                <h3>Web Development</h3>
+                <p>Learning web development using HTML and CSS.</p>
+            </div>
+
+            <div class="project">
+                <h3>Personal Portfolio</h3>
+                <p>My personal website using HTML and CSS.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="title">Contact Me</h2>
+
+        <p>Let's connect and learn together!</p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/deepthik7538" target="_blank">
+                Visit My GitHub
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/deepthi-kesavan/"
+            target="_blank">
+                Visit My LinkedIn
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Deepthi K | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
